@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: #0f141e;
+    background-color: #f1f1f1;
+    
+}
+h1{
+    color: #017337;
+}
+h2,h3,h4 {
+    color: #68ae3c;
+}
+a{
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: #68ae3c;
+}
+header {
+    background-color: #fff;
+    text-align: center;
+}
+header img {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.container{
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+.info {
+    text-align: center;
+    padding: 10px;
+}
+.card {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.card ul {
+    padding-left: 20px;
+}
+.vozm {
+    background-color: rgb(161, 231, 200);
+}
+.razr{
+    background-color: rgb(233, 203, 163);
+}
+.btn {
+    padding: 5px;
+    color: #333;
+    border: 0;
+    background-color: #68ae3c;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #017337;
+}
+.table tbody td:first-child{
+    text-align: left;
+    font-weight: bold;
+    
+    width: 200px;
+}
+.table tbody tr:nth-child(odd) {
+    background-color: aquamarine;
+}
+.table td {
+    padding: 5px;
+}
+.list {
+    list-style: none;
+}
+.list li:hover{
+    background-color: #68ae3c;
+}
+
+.form h2 {
+    text-align: center;
+}
+.form-group{
+    text-align: left;
+}
+.form-group label{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.form-group input, .form-group textarea{
+    box-sizing: border-box;
+    width: 100%;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #333;
+    padding: 5px;
+}
+.form-row{
+    display: flex;
+}
+.form-row .form-group{
+    width: 50%;
+    margin: 5px;
+}
+@media (max-width:650px) {
+    .form-row{
+        display: block;
+    } 
+}
